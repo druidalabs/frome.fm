@@ -28,7 +28,7 @@ Access via: [http://localhost:4000](http://localhost:4000)
 
 ### Demo and Download
 
-[Demo](http://linktogithubpages)
+[Demo in GitHubPages](https://druidalabs.github.io/frome.fm)
 
 [Download](https://github.com/druidalabs/frome.fm/archive/master.zip)
 

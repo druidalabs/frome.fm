@@ -1,20 +1,25 @@
-# Evento
+# Frome.fm
 
-Evento is a minimal, responsive theme for Jekyll. The projects allows people, groups or companies to host and show a list future and past events.
+Frome.fm is a minimal, responsive website to broadcast and promote radio programs created by the community members.  
+
+The website contains a basic structure with the 'play now' button to listen to the current live radio (as you do in the car) The content in the main area is organised in posts. Each post represent a program. Each program has a Producer associated to it and the post will contain an image, description, date and tags to facilitate search.
 
 ### Features
 
 * Clean layout
 * Responsive layout
-* Shows future and past events
-* Easy for people to add events
+* Shows current (live), future and past programs
+* Easy for people to add new programs
+
+### Technology
+Based in Jekyll framework
 
 ---
 
 ### Install and Test
 
-1. Download or clone repo `git clone git@github.com:boyney123/evento.git`
-2. Enter the folder: `cd evento/`
+1. Download or clone repo `git clone git@github.com:druidalabs/frome.fm.git`
+2. Enter the folder: `cd frome.fm/`
 4. Start Jekyll server: `jekyll serve`
 
 Access via: [http://localhost:4000](http://localhost:4000)
@@ -23,9 +28,9 @@ Access via: [http://localhost:4000](http://localhost:4000)
 
 ### Demo and Download
 
-[Demo](http://evento.davidboyne.co.uk)
+[Demo](http://linktogithubpages)
 
-[Download](https://github.com/boyney123/evento/archive/master.zip)
+[Download](https://github.com/druidalabs/frome.fm/archive/master.zip)
 
 ### Screen Shot 1
 ![Evento - free Jekyll theme](/screenshot.png)

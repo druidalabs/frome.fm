@@ -382,10 +382,6 @@ footer {
   display: block;
   margin-top: 5px; }
 
-.audio-controls {
-  display: inline-block;
-  padding: 10px 0 10px 30px; }
-
 .event-sqaure {
   color: white;
   border: 1px solid #372121;

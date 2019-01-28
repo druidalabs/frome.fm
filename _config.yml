@@ -6,17 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Evento
+title: Frome FM
 
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Events
+event_label: Frome FM
 
 description: > # this means to ignore newlines until "baseurl:"
   Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
 
 baseurl: "/frome.fm" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-
+url: "http://frome.fm" # the base hostname & protocol for your site
 #These settings might be able to go?
 author: David Boyne
 twitter_username: boyney123

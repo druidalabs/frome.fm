@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evento</title>
+    <title>Frome FM</title>
     <description>Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
 </description>
     <link>http://localhost:4000/frome.fm/</link>
     <atom:link href="http://localhost:4000/frome.fm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jan 2019 21:30:31 +0000</pubDate>
-    <lastBuildDate>Mon, 28 Jan 2019 21:30:31 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Jan 2019 23:00:55 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Jan 2019 23:00:55 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Docker</title>
+        <description>&lt;p&gt;Its everywhere. Docker, Docker, Docker! If your an expert or new to Docker come to my 3 hour training session.&lt;/p&gt;
+
+&lt;p&gt;I will also provide cake!&lt;/p&gt;
+
+&lt;p&gt;Just click the button and let me know you want to attend.&lt;/p&gt;
+
+&lt;p&gt;I promise…it will be fun!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/frome.fm/event/docker.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm/event/docker.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Web Security</title>
+        <description>&lt;p&gt;Its very important that we keep up to date with web security. This talk will be a 7 hour introduction into the latest techniques about web security
+and how we can keep our data safe across Mobiles, Desktops and Tablets.&lt;/p&gt;
+
+&lt;p&gt;Let me know if you would like to attend.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Apr 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/frome.fm/event/web-security.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm/event/web-security.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Docker</title>

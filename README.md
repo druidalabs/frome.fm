@@ -7,8 +7,8 @@ The website contains a basic structure with the 'play now' button to listen to t
 ### Features
 
 * Clean layout
-* Responsive layout
-* Shows current (live), future and past programs
+* Responsive layout (mobile first)
+* Shows all programs and their episodes
 * Easy for people to add new programs
 
 ### Technology

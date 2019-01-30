@@ -4,6 +4,8 @@ Frome.fm is a minimal, responsive website to broadcast and promote radio program
 
 The website contains a basic structure with the 'play now' button to listen to the current live radio (as you do in the car) The content in the main area is organised in posts. Each post represent a program. Each program has a Producer associated to it and the post will contain an image, description, date and tags to facilitate search.
 
+Episodes of the program will be produced and added to MixCloud where there will be a separate playlist for the given program.
+
 ### Features
 
 * Clean layout

@@ -20,7 +20,7 @@ Based in Jekyll framework
 
 ### Install and Test
 
-1. Download or clone repo `git clone git@github.com:druidalabs/frome.fm.git`
+1. Download or clone repo `git clone https://github.com/druidalabs/frome.fm.git`
 2. Enter the folder: `cd frome.fm/`
 4. Start Jekyll server: `jekyll serve`
 

@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="wrapper">
-    <a href="/#"><img src="http://frome.fm/wp-content/uploads/2013/02/logo-plain.png" id="header-image" width="305" height="120" alt="" scale="0"></a>
+    <a href="{{site.baseurl }}"><img src="http://frome.fm/wp-content/uploads/2013/02/logo-plain.png" id="header-image" width="305" height="120" alt="" scale="0"></a>
     <div class="audio-controls">
       <audio controls>
         <source src="http://icecast.bargus.co.uk/fromefm.mp3" type="audio/mpeg">
@@ -20,7 +20,7 @@
         {% for my_page in site.pages %}
           {% if my_page.navigation_title %}
             {% if my_page.button %}
-               
+
             {% else %}
                 <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
             {% endif %}

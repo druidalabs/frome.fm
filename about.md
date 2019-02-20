@@ -1,25 +1,30 @@
 ---
 layout: page
 navigation_title: About
-title: About Evento
+title: About us
 permalink: /about/
 ---
 
-[Evento](https://github.com/boyney123/evento) a free to use open source Jekyll project I started that allows people to create internal/external events, showing times and information for anybody that wants to attend.
+FromeFM is a Frome based non-profit community radio station run by Frome Community Productions CIC. Produced by over 100 members, it broadcasts new programmes every month online and on 96.6FM. FromeFM provides niche music programmes; Frome focussed debates and reportage; sustained support for and coverage of the work of community groups; and radio for children.
 
-# The Problem I was trying to solve
+Frome Community Productions CIC
+Frome Town Hall
+Christchurch Street West
+Frome
+BA11 1EB
 
+# Transition - where are we going
 
-At my current place of work we run internal speaker events called Brownbags.
- 
-Brownbags are a great platform and environment for professionals to speak about anything that interests them. 
+The way people consume radio these days is shifting to a new paradigm. People tend to consume customised content on demand, rather than tunning into radio programs at specific times and dates like it used to be.
 
-The main problem I found was that there was no **easy to use** platform to see what Brownbags, Internal Training or other events are coming up or have already gone, so I created [Evento](https://github.com/boyney123/evento)
+With the advent of internet and devices able to consume multimedia we believe that the radio experience could be way richer than just listening to an audio in a given dial. 
 
-This free and opensource platform should allow any organisation or group to collect and share their events in one place.
+We want to run the radio as a transparent open source project maintained by its contributors so it never dies or gets developer/vendor locked-in.
 
-If you would like to contribute to the project or folk it for your own organisation or group feel free. 
+By using this innovative approach we believe we can serve content faster, cheaper and in a more secure way to our audience. 
 
-<a href="https://github.com/boyney123/evento"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span> Evento</a>
+[Frome FM](https://github.com/druidalabs/frome.fm) is free to use open source Jekyll project based on [Evento's Jekill template](https://github.com/boyney123/evento)
+
+Come and join us to re-shape the radio industry! 
 
 

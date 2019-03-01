@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frome FM</title>
-    <description>A radical fresh approach to radio. A trully shared resource. Open and transparent. Supporting the local community and empowering the collective creativity of its members</description>
+    <description>A radical fresh new approach to radio. A trully shared resource. Open and transparent. Supporting the local community and empowering the collective creativity of its members</description>
     <link>http://localhost:4000/frome.fm/</link>
     <atom:link href="http://localhost:4000/frome.fm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Feb 2019 17:42:38 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Feb 2019 17:42:38 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Mar 2019 18:00:34 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Mar 2019 18:00:34 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -81,14 +81,14 @@ and how we can keep our data safe across Mobiles, Desktops and Tablets.&lt;/p&gt
       </item>
     
       <item>
-        <title>Getting started with AWS</title>
-        <description>&lt;p&gt;Just a quick introduction into AWS.&lt;/p&gt;
+        <title>Rebellious Jukebox</title>
+        <description>&lt;p&gt;So what is there for a music show to rebel against? Well, possibly the mediocre, possibly the manufactured; certainly the mundane. There are no rules here: a particular show is just as likely to be influenced by a weekend at WOMAD or the Cambridge Folk Festival, as by memories of listening to John Peel or Tommy Vance back in the early eighties. Julian moved to Frome in 2015: “One of the best things I’ve ever done.” Music, beer and bicycles are top of the hobbies list and there are ample opportunities to indulge in all three here. He bought his first album in 1980; AC/DC’s Highway to Hell; still a favourite, and has been collecting music ever since.&lt;/p&gt;
 
-&lt;p&gt;Please come along if your interested. Pizza will be provided.&lt;/p&gt;
+&lt;p&gt;Check out the Rebellious Jukebox: every show aims to be a deluge of musical diversity and excellence.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/frome.fm/event/aws.html</link>
-        <guid isPermaLink="true">http://localhost:4000/frome.fm/event/aws.html</guid>
+        <link>http://localhost:4000/frome.fm/event/julian-crawley.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm/event/julian-crawley.html</guid>
         
         
       </item>

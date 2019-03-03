@@ -49,7 +49,7 @@ layout: default
     <div class="d-block">
         <h3>Related Tags</h3>
         {% for tags in page.tags %}
-        <a class="post-tag {% cycle 'bg-danger','bg-primary','bg-success', 'bg-warning' %}" href="#{{tags}}" >{{ tags }}</a>
+        <a class="post-tag {% cycle 'bg-danger','bg-info','bg-success', 'bg-warning' %}" href="#{{tags}}" >{{ tags }}</a>
         {% endfor %}
     </div>
     {% endif %}

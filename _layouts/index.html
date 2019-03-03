@@ -20,7 +20,7 @@ carousel: true
         {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
         {% for post in site.posts %}
         {% cycle '<div class="row cards-equal-height">','' %}
-        <div class="col-lg-6">
+        <div class="col-md-6">
             {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
             <div class="card img-150">
                 {% if post.mixcloud-url %}

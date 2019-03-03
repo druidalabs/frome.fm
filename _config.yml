@@ -21,5 +21,5 @@ github_username:  druidalabs/frome.fm
 # Build settings
 markdown: kramdown
 
-permalink: /event/:title.html
+permalink: posts/:title.html
 

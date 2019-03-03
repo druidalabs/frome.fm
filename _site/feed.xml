@@ -5,8 +5,8 @@
     <description>A radical fresh approach to radio. A trully shared resource. Open and transparent. Supporting the local community and empowering the collective creativity of its members</description>
     <link>http://localhost:4000/frome.fm//</link>
     <atom:link href="http://localhost:4000/frome.fm//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Mar 2019 03:11:59 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2019 03:11:59 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2019 15:39:30 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 15:39:30 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;We are extremly excited about the new Frome FM website&lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/frome.fm//event/frome-fm-relaunch.html</link>
-        <guid isPermaLink="true">http://localhost:4000/frome.fm//event/frome-fm-relaunch.html</guid>
+        <link>http://localhost:4000/frome.fm//posts/frome-fm-relaunch.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm//posts/frome-fm-relaunch.html</guid>
         
         
       </item>
@@ -27,9 +27,17 @@
 &lt;p&gt;Check out the Rebellious Jukebox: every show aims to be a deluge of musical diversity and excellence.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/frome.fm//event/julian-crawley.html</link>
-        <guid isPermaLink="true">http://localhost:4000/frome.fm//event/julian-crawley.html</guid>
+        <link>http://localhost:4000/frome.fm//posts/julian-crawley.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm//posts/julian-crawley.html</guid>
         
+        <category>Rebellious Jukebox</category>
+        
+        <category>music</category>
+        
+        <category>chat show</category>
+        
+        
+        <category>Radio Program</category>
         
       </item>
     

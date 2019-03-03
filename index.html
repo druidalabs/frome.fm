@@ -4,33 +4,35 @@ cover: '/assets/img/friend-banner.jpg'
 carousel: true
 ---
 
-<div class="home">
-    
-    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-
-    <div class="clearfix">
-
-      <!--<h1 class="event-time-heading">What's happening</h1>-->
-      <div class="card-deck">
-      {% for post in site.posts %}
-        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-        <div class="card programs">
-          {% if post.mixcloud-url %}
-          <iframe class="card-img-top" width="100%" height="300" src="{{post.mixcloud-url}}" frameborder="0" ></iframe>
-          {% else %}
-          <img class="card-img-top" src="{{ post.cover | prepend: '/assets/img/'  | prepend: site.baseurl }}" alt="{{ post.name }}">
-          {% endif %}
-          <div class="card-body">
-            <h5 class="card-title">
-              <a href="{{ post.url}}">{{post.title }}</a>
-              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-            </h5>
-            <p class="card-text">{{ post.description }}</p>
-            <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}" {% if page.url== post.link %}class="current" {% endif %}>Show more...</a>
-          </div>
+<article>
+    <div class="row">
+        <div class="col-12">
+        {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+        {% for post in site.posts %}
+        {% cycle '<div class="row cards-equal-height">','','' %}
+        <div class="col-lg-4">
+            {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+            <div class="card img-300">
+                {% if post.mixcloud-url %}
+                <iframe class="card-img-top" width="100%" height="300" src="{{post.mixcloud-url}}"
+                        frameborder="0"></iframe>
+                {% else %}
+                <img class="card-img-top" src="{{ post.cover | prepend: '/assets/img/'  | prepend: site.baseurl }}"
+                     alt="{{ post.name }}">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title m-0">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
+                    </h5>
+                    <span class="d-block"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                    <p class="card-text">{{ post.description }}</p>
+                    <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}">Show more...</a>
+                </div>
+            </div>
         </div>
-      {% endfor %}
-      </div>
+        {% cycle '','','</div>' %}
+        {% endfor %}
+        </div>
     </div>
 
-</div>
+</article>

@@ -6511,6 +6511,18 @@ footer {
   width: 100%;
   object-fit: cover; }
 
+.author-photo {
+  max-width: 150px; }
+
+.blog-info-col {
+  margin-top: 20px; }
+  .blog-info-col .d-block {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid #e8e8e8 1px; }
+  .blog-info-col .d-block:last-child {
+    border-bottom: 0; }
+
 .carousel {
   max-height: 300px;
   overflow: hidden; }
@@ -6550,6 +6562,37 @@ audio::-webkit-media-controls-enclosure {
 .card {
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.cards-equal-height > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto; }
+
+.img-300 .card-img-top {
+  height: 300px;
+  object-fit: cover; }
+
+.post-tag {
+  display: inline-block;
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
+  font-size: 90%;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  opacity: 0.9; }
+
+.post-tag:before {
+  content: "\f02b";
+  font-family: FontAwesome;
+  padding-right: .5em; }
+
+.post-tag:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1; }
 
 @media (max-width: 991.98px) {
   .navbar-nav .nav-item {

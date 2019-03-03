@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /events/
 ---
  Discovering intimate gigs from passionate musicians and other random events

@@ -53,7 +53,45 @@ audio::-webkit-media-controls-enclosure {
 .card-deck {
   margin-top: 20px;
 }
+
 .card {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.cards-equal-height > div[class*='col-'] {
+  display: flex;
+  flex:1 0 auto;
+}
+
+.img-300 {
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+//TAGS
+.post-tag {
+  display: inline-block;
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $white;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
+  font-size: 90%;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  opacity: 0.9;
+}
+.post-tag:before {
+  content: "\f02b";
+  font-family: FontAwesome;
+  padding-right: .5em;
+}
+.post-tag:hover {
+  text-decoration: none;
+  color: $white;
+  opacity: 1;
 }

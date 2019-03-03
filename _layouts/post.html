@@ -2,33 +2,56 @@
 layout: default
 ---
 
-{% assign organiser = site.data.presenters %}
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    {% if organiser.photo %}
-        <h3 class="post-organisers-name">By {{organiser.name}}</h3>
-    {% endif %}
-    <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
-      {% if page.end_time %}
-        <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
-      {% endif %}
-  </header>
-
-  {% if organiser.photo %}
-    <div class="author" style="background-image:url({{organiser.photo}});"></div>
-  {% endif %}
-
-    <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-    {% if organiser.email %}
-        <div>
-            <a href='mailto:{{organiser.email}}?subject=Register interest for {{page.title}} on {{ page.date | date: "%B %-d, %Y" }}&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Register Interest</a>
+<div class="row">
+<div class="col-lg-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <h2 class="post-date">
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d,
+                    %Y" }}
+                </time>
+            </h2>
+            {% if page.end_time %}
+            <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+            {% endif %}
+        </header>
+        <div class="post-content" itemprop="articleBody">
+            {{ content }}
         </div>
+    </article>
+</div>
+<div class="col-lg-4 blog-info-col">
+    <div class="d-block">
+    {% for presenters in site.data.presenters %}
+    {% if presenters.name == page.author %}
+        <h3>By {{presenters.name}}</h3>
+        {% if presenters.photo %}
+        <div class="author-photo">
+            <img class="img-fluid img-thumbnail" src="{{presenters.photo | prepend: 'assets/img/'  | prepend: site.baseurl}}">
+        </div>
+        {% endif %}
+        {% if presenters.message %}
+        <div class="mt-2">
+        <i class="fa fa-quote-left"></i> {{presenters.message}} <i class="fa fa-quote-right"></i>
+        </div>
+        {% endif %}
+        {% if presenters.email %}
+        <div class="mt-2">
+            <a href='mailto:{{presenters.email}}?subject=Register interest for {{page.title}} on {{ page.date | date: "%B %-d, %Y" }}&body=Hi! Im interested in your post.'
+               class="button button-primary"><i class="fa fa-envelope"></i> Email {{page.author}}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+    </div>
+    {% if page.tags %}
+    <div class="d-block">
+        <h3>Related Tags</h3>
+        {% for tags in page.tags %}
+        <a class="post-tag bg-info" href="#{{tags}}" >{{ tags }}</a>
+        {% endfor %}
+    </div>
     {% endif %}
-
-</article>
+</div>
+</div>

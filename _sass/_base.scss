@@ -21,10 +21,25 @@ footer {
   color: #D2D2D2;
 }
 
-.programs{
+.programs {
   img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+  }
+}
+
+.author-photo {
+  max-width: 150px;
+}
+.blog-info-col {
+  margin-top: 20px;
+  .d-block {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid $grey-color-light 1px;
+  }
+  .d-block:last-child {
+    border-bottom: 0;
   }
 }

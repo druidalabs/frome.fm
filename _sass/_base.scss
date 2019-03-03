@@ -43,3 +43,16 @@ footer {
     border-bottom: 0;
   }
 }
+.contact-info {
+  a {
+    color: $dark;
+    white-space: nowrap;
+    margin-left: 15px;
+    i {
+      color: $red;
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}

@@ -7,7 +7,7 @@ cover: "rebellious-jukebox-program-image.jpg"
 date:   2016-01-05
 category: Radio Program
 author: Rupert Kirkham
-tags: [Rebellious Jukebox, music, chat show]
+tags: [Rebellious Jukebox, music, chat show, Rupert Kirkham]
 
 #presenter
 presenter: "Julian Crawley"

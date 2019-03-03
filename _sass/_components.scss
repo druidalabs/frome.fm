@@ -70,6 +70,12 @@ audio::-webkit-media-controls-enclosure {
     object-fit: cover;
   }
 }
+.img-150 {
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+}
 
 //TAGS
 .post-tag {
@@ -94,4 +100,14 @@ audio::-webkit-media-controls-enclosure {
   text-decoration: none;
   color: $white;
   opacity: 1;
+}
+
+//SEARCH WIDGET
+.search-results {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+  li {
+    width: 100%;
+  }
 }

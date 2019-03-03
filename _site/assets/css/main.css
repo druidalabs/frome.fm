@@ -6523,6 +6523,15 @@ footer {
   .blog-info-col .d-block:last-child {
     border-bottom: 0; }
 
+.contact-info a {
+  color: #343a40;
+  white-space: nowrap;
+  margin-left: 15px; }
+  .contact-info a i {
+    color: #dc3545; }
+.contact-info a:hover {
+  text-decoration: none; }
+
 .carousel {
   max-height: 300px;
   overflow: hidden; }
@@ -6571,6 +6580,10 @@ audio::-webkit-media-controls-enclosure {
   height: 300px;
   object-fit: cover; }
 
+.img-150 .card-img-top {
+  height: 150px;
+  object-fit: cover; }
+
 .post-tag {
   display: inline-block;
   padding: 0 .5rem;
@@ -6593,6 +6606,13 @@ audio::-webkit-media-controls-enclosure {
   text-decoration: none;
   color: #fff;
   opacity: 1; }
+
+.search-results {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0; }
+  .search-results li {
+    width: 100%; }
 
 @media (max-width: 991.98px) {
   .navbar-nav .nav-item {

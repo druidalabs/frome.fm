@@ -14,8 +14,10 @@ baseurl: "/frome.fm/" # the subpath of your site, e.g. /blog
 url: "http://frome.fm" # the base hostname & protocol for your site
 #These settings might be able to go?
 author: Felipe Ieder
-twitter_username: fromefm
-github_username:  druidalabs/frome.fm
+twitter: fromefm
+phone: +44 7102 912 444
+mail: hello@frome.fm
+github:  druidalabs/frome.fm
 
 
 # Build settings

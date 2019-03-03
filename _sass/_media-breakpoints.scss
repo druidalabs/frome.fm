@@ -21,6 +21,9 @@
         padding: 20px 8px;
       }
     }
+    .nav-item:first-child {
+      border-left: 0;
+    }
     .nav-item:last-child {
       border-bottom: 0;
       margin-right: 0;

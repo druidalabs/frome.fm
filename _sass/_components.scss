@@ -21,12 +21,18 @@
 
 
 //NAVBAR
+.navbar {
+  padding: 0;
+}
 .navbar-nav {
   .nav-item {
     border-right: solid $grey-color 1px;
     .nav-link {
       padding: 8px 20px;
     }
+  }
+  .nav-item:first-child {
+    border-left: solid $grey-color 1px;
   }
   .nav-item:last-child {
     margin-right: 15px;

@@ -6524,10 +6524,15 @@ footer {
     .carousel .carousel-caption h2, .carousel .carousel-caption p {
       text-shadow: 0px 0px 5px #212121; }
 
+.navbar {
+  padding: 0; }
+
 .navbar-nav .nav-item {
   border-right: solid #828282 1px; }
   .navbar-nav .nav-item .nav-link {
     padding: 8px 20px; }
+.navbar-nav .nav-item:first-child {
+  border-left: solid #828282 1px; }
 .navbar-nav .nav-item:last-child {
   margin-right: 15px; }
 
@@ -6552,6 +6557,8 @@ audio::-webkit-media-controls-enclosure {
     border-bottom: solid #828282 1px; }
     .navbar-nav .nav-item .nav-link {
       padding: 20px 8px; }
+  .navbar-nav .nav-item:first-child {
+    border-left: 0; }
   .navbar-nav .nav-item:last-child {
     border-bottom: 0;
     margin-right: 0; } }

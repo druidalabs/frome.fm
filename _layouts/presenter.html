@@ -10,17 +10,19 @@ layout: default
             </div>
         </div>
         <div class="row">
-            <div class="card-deck">
+            <div class="card-group">
             {% for item in site.data.presenters %}
                 <div class="card">
+                    <a href="{{ item.link }}">
                     <img class="card-img-top" src="{{ item.photo | prepend: 'assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
                     <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="{{ item.link }}" {% if page.url== item.link %}class="current" {% endif %}>{{item.name }}</a>
-                        </h5>
-                        <p class="card-text">{{ item.description }}</p>
-                        <a class="btn btn-primary" href="{{ item.link }}" {% if page.url== item.link %}class="current" {% endif %}>Show me more...</a>
+
+                            <h5 class="card-title">
+                                <a href="{{ item.link }}" {% if page.url== item.link %}class="current" {% endif %}>{{item.name }}</a>
+                            </h5>
+                            <p class="card-text">{{ item.description }}</p>
                     </div>
+                    </a>
                 </div>
             {% endfor %}
             </div>

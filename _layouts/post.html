@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign organiser = site.data.organisers %}
+{% assign organiser = site.data.presenters %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -12,7 +12,9 @@ layout: default
         <h3 class="post-organisers-name">By {{organiser.name}}</h3>
     {% endif %}
     <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
-    <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+      {% if page.end_time %}
+        <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+      {% endif %}
   </header>
 
   {% if organiser.photo %}

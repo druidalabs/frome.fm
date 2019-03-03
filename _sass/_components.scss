@@ -1,0 +1,53 @@
+//CAROUSEL
+.carousel {
+  max-height: 300px;
+  overflow: hidden;
+  .carousel-inner {
+    .carousel-item {
+      background: black;
+      img {
+        opacity: 0.8;
+      }
+    }
+  }
+  .carousel-caption {
+    top: 25px;
+    bottom: auto;
+    h2, p {
+      text-shadow: 0px 0px 5px rgba(33, 33, 33, 1);
+    }
+  }
+}
+
+
+//NAVBAR
+.navbar-nav {
+  .nav-item {
+    border-right: solid $grey-color 1px;
+    .nav-link {
+      padding: 8px 20px;
+    }
+  }
+  .nav-item:last-child {
+    margin-right: 15px;
+  }
+}
+
+// AUDIO CONTROL
+audio {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+audio::-webkit-media-controls-enclosure {
+  background: $grey-color-light;
+}
+
+//CARDS
+.card-deck {
+  margin-top: 20px;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

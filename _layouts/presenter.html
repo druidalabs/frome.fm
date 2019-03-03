@@ -1,16 +1,29 @@
 ---
 layout: default
 ---
-  <div>
-      {{ content }}    
-  </div>
 
-  {% for item in site.data.presenters %}
-  	<ul>
-  		<li style="list-style: none;">	<div class="row">
-  			    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  			    <img src="{{ item.photo | prepend: '/assets/img/'  | prepend: site.baseurl }}">
-  			    </div>
-  		</li>
-  	</ul>
-  {% endfor %}
+<article class="container-fluid">
+    <div class="content container">
+        <div class="row">
+            <div class="col">
+                {{ content }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+            {% for item in site.data.presenters %}
+                <div class="card">
+                    <img class="card-img-top" src="{{ item.photo | prepend: 'assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ item.link }}" {% if page.url== item.link %}class="current" {% endif %}>{{item.name }}</a>
+                        </h5>
+                        <p class="card-text">{{ item.description }}</p>
+                        <a class="btn btn-primary" href="{{ item.link }}" {% if page.url== item.link %}class="current" {% endif %}>Show me more...</a>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,34 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    .nav-item {
+      border-right: 0;
+      border-bottom: solid $grey-color 1px;
+      .nav-link {
+        padding: 20px 8px;
+      }
+    }
+    .nav-item:last-child {
+      border-bottom: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1199.98px) {
+
+}

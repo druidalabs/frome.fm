@@ -7,7 +7,7 @@ cover: "rebellious-jukebox-program-image.jpg"
 date:   2016-01-05
 
 #presenter
-organiser: "Julian Crawley"
+presenter: "Julian Crawley"
 
 ---
 

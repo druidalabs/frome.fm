@@ -32,11 +32,11 @@ carousel: true
                 {% endif %}
                 <div class="card-body">
                     <h5 class="card-title m-0">
-                        <a class="{% cycle 'text-danger','text-primary', 'text-success', 'text-warning' %}" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
+                        <a class="{% cycle 'text-danger','text-info', 'text-success', 'text-warning' %}" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
                     </h5>
                     <span class="d-block"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
                     <p class="card-text">{{ post.description }}</p>
-                    <a class="btn {% cycle 'btn-danger','btn-primary', 'btn-success', 'btn-warning' %}" href="{{ post.url | prepend: site.baseurl }}">Show more...</a>
+                    <a class="btn {% cycle 'btn-danger','btn-info', 'btn-success', 'btn-warning' %}" href="{{ post.url | prepend: site.baseurl }}">Show more...</a>
                 </div>
             </div>
         </div>

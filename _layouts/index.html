@@ -1,0 +1,48 @@
+---
+layout: default
+cover: '/assets/img/friend-banner.jpg'
+carousel: true
+---
+
+<article>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="d-block mb-5">
+                <h3>Quick search</h3>
+                {% include widget-search.html %}
+            </div>
+            <div class="d-block mb-5">
+                <h3>Tags</h3>
+                {% include widget-tags.html %}
+            </div>
+        </div>
+        <div class="col-lg-8">
+        {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+        {% for post in site.posts %}
+        {% cycle '<div class="row cards-equal-height">','' %}
+        <div class="col-md-6">
+            {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+            <div class="card img-150">
+                {% if post.mixcloud-url %}
+                <iframe class="card-img-top" width="100%" height="300" src="{{post.mixcloud-url}}"
+                        frameborder="0"></iframe>
+                {% else %}
+                <img class="card-img-top" src="{{ post.cover | prepend: '/assets/img/'  | prepend: site.baseurl }}"
+                     alt="{{ post.name }}">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title m-0">
+                        <a class="{% cycle 'text-danger','text-info', 'text-success', 'text-warning' %}" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
+                    </h5>
+                    <span class="d-block"><i class="fa fa-calendar-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                    <p class="card-text">{{ post.description }}</p>
+                    <a class="btn {% cycle 'btn-danger','btn-info', 'btn-success', 'btn-warning' %}" href="{{ post.url | prepend: site.baseurl }}">Show more...</a>
+                </div>
+            </div>
+        </div>
+        {% cycle '','</div>' %}
+        {% endfor %}
+        </div>
+    </div>
+
+</article>

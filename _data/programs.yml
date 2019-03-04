@@ -1,13 +1,32 @@
-Frome Talking Newspaper:
-  title: "Frome Talking Newspaper"
-  link: frome-talking-newspaper
-  widget-url: "https://www.mixcloud.com/AGAradio1/aga-radio-episode-4-17112017/"
-  banner: "frome-talking-newspaper-banner.jpg"
-Breakfasts with Bernie, Ida Down and Johnny:
-  title: "Breakfasts with Bernie, Ida Down and Johnny"
-  type: "Breakfast Show"
-  link: breakfasts-with-bernie-ida-down-and-johnny
-  widget-url: "https://www.mixcloud.com/AGAradio1/aga-radio-episode-4-17112017/"
-  banner: "berny.jpg"
+# this is the full list of current programs in the radio
+- name: All About Frome
+  link: all-about-frome
+  description: The show that gives a voice to Frome’s Volunteer Army
+  producers: Rupert Kirkham & Julia Wellard
+  show-time: Tuesdays at 1200 and 1800 (R), Wednesday at 0700(R), Saturdays at 1300(R), Mondays at 2300
+  photo: all-about-frome-program-image.jpg
+  carousel-photo: all-about-frome-program-image.jpg
 
+- name: Rebellious Jukebox
+  link: rebellious-jukebox
+  description: So what is there for a music show to rebel against? Well, possibly the mediocre, possibly the manufactured; certainly the mundane.
+  producers: Julian Crawley
+  show-time: Thursday evenings from 8.00 until 9.00.
+  photo: rebellious-jukebox-program-image.jpg
+  carousel-photo: rebellious-jukebox-program-image.jpg
+  mixcloud-url: https://www.mixcloud.com/widget/iframe/?feed=%2FFromeFM%2Fplaylists%2Frebellious-jukebox%2F
 
+- name: This is Glastonbury Festival 2017
+  link: this-is-glastonbury-festival-2017
+  description: This is Glastonbury, a Frome FM special joining Alex Hawkins in a series of programmes delving into the creative work behind the scenes that make Glastonbury Festival such a unique place to be.
+  producers: Alex Hawkins
+  photo: This-is-Glastonbury-banner.jpg
+  carousel-photo: This-is-Glastonbury-banner.jpg
+  mixcloud-url: https://www.mixcloud.com/widget/iframe/?feed=%2FFromeFM%2Fplaylists%2Fglastonbury-2017%2F
+
+- name: Fromers
+  link: fromers
+  description: A few of your favourite Frome FM presenters will entertain you with their records old and new, and keep you up to date with all the live music offerings in and around the town this week.
+  producers: Ivan, Fordy, James and Paul
+  photo: fromers-banner.jpg
+  show-time:  Every Tuesday from 7 ’til 8pm.

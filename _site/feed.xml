@@ -3,93 +3,62 @@
   <channel>
     <title>Frome FM</title>
     <description>A radical fresh approach to radio. A trully shared resource. Open and transparent. Supporting the local community and empowering the collective creativity of its members</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Feb 2019 16:25:37 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Feb 2019 16:25:37 +0000</lastBuildDate>
+    <link>http://localhost:4000/frome.fm//</link>
+    <atom:link href="http://localhost:4000/frome.fm//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Mar 2019 23:44:08 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 23:44:08 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Docker</title>
-        <description>&lt;p&gt;Its everywhere. Docker, Docker, Docker! If your an expert or new to Docker come to my 3 hour training session.&lt;/p&gt;
-
-&lt;p&gt;I will also provide cake!&lt;/p&gt;
-
-&lt;p&gt;Just click the button and let me know you want to attend.&lt;/p&gt;
-
-&lt;p&gt;I promise…it will be fun!&lt;/p&gt;
+        <title>Frome FM relaunch</title>
+        <description>&lt;p&gt;We are extremly excited about the new Frome FM website&lt;/p&gt;
 </description>
-        <pubDate>Thu, 05 May 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/event/docker.html</link>
-        <guid isPermaLink="true">http://localhost:4000/event/docker.html</guid>
+        <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/frome.fm//posts/frome-fm-relaunch.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm//posts/frome-fm-relaunch.html</guid>
         
         
       </item>
     
       <item>
-        <title>Web Security</title>
-        <description>&lt;p&gt;Its very important that we keep up to date with web security. This talk will be a 7 hour introduction into the latest techniques about web security
-and how we can keep our data safe across Mobiles, Desktops and Tablets.&lt;/p&gt;
+        <title>This is Glastonbury Festival 2017</title>
+        <description>&lt;p&gt;‘This is Glastonbury’, a Frome FM special joining Alex Hawkins in a series of programmes delving into the creative work behind the scenes that make Glastonbury Festival such a unique place to be. Capturing the soundscapes, moments, feelings and personal perspectives from one of the largest festivals in the world.&lt;/p&gt;
 
-&lt;p&gt;Let me know if you would like to attend.&lt;/p&gt;
+&lt;p&gt;We hear from the creators of the Kidz Field before the festival opens to the public, alongside interviews with poet Toria Garbutt, musicians Kathryn Williams, Michele Stodart, Marika Hackman, Blaenavon, music producer Russ Russell and organisations such as Deaf Zone whose volunteer interpreters increase access for all to festival life.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 03 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/event/web-security.html</link>
-        <guid isPermaLink="true">http://localhost:4000/event/web-security.html</guid>
+        <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/frome.fm//posts/glastonbury-festival.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm//posts/glastonbury-festival.html</guid>
+        
+        <category>Glastonbury Festival 2017</category>
+        
+        <category>live music</category>
+        
+        <category>music</category>
         
         
       </item>
     
       <item>
-        <title>ReactJS</title>
-        <description>&lt;p&gt;I will be doing a small talk on an Introduction into ReactJS. We will cover the following:&lt;/p&gt;
+        <title>Rebellious Jukebox</title>
+        <description>&lt;p&gt;So what is there for a music show to rebel against? Well, possibly the mediocre, possibly the manufactured; certainly the mundane. There are no rules here: a particular show is just as likely to be influenced by a weekend at WOMAD or the Cambridge Folk Festival, as by memories of listening to John Peel or Tommy Vance back in the early eighties. Julian moved to Frome in 2015: “One of the best things I’ve ever done.” Music, beer and bicycles are top of the hobbies list and there are ample opportunities to indulge in all three here. He bought his first album in 1980; AC/DC’s Highway to Hell; still a favourite, and has been collecting music ever since.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;What is React?&lt;/li&gt;
-  &lt;li&gt;How to get setup with React.&lt;/li&gt;
-  &lt;li&gt;How to get building React Apps.&lt;/li&gt;
-  &lt;li&gt;Bundle your application&lt;/li&gt;
-  &lt;li&gt;Release your application&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If this sounds interesting please register your interest below.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 28 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/event/intro-to-react.html</link>
-        <guid isPermaLink="true">http://localhost:4000/event/intro-to-react.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Angular 2</title>
-        <description>&lt;p&gt;Angular computes updates based on changes to data, not DOM, for fast updates that scale to the largest data sets with minimal memory overhead.&lt;/p&gt;
-
-&lt;p&gt;With Angular Universal for server-side rendering and Web Workers for smooth scrolling and transitions, Angular 2 solves the core challenges in mobile web performance.&lt;/p&gt;
-
-&lt;p&gt;Supports several languages including plain JavaScript, TypeScript, and Dart. Also supports both object-style data structure with POJO data-binding and functional reactive style with unidirectional data flow and support for observables and immutable data structures.&lt;/p&gt;
-
-&lt;p&gt;Angular is built by a team of engineers who share a passion for making web development feel effortless. We believe that writing beautiful apps should be joyful and fun. We’re building a platform for the future….&lt;/p&gt;
-
-&lt;p&gt;If you want to know more come along to my event!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/event/angular-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/event/angular-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Getting started with AWS</title>
-        <description>&lt;p&gt;Just a quick introduction into AWS.&lt;/p&gt;
-
-&lt;p&gt;Please come along if your interested. Pizza will be provided.&lt;/p&gt;
+&lt;p&gt;Check out the Rebellious Jukebox: every show aims to be a deluge of musical diversity and excellence.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/event/aws.html</link>
-        <guid isPermaLink="true">http://localhost:4000/event/aws.html</guid>
+        <link>http://localhost:4000/frome.fm//posts/julian-crawley.html</link>
+        <guid isPermaLink="true">http://localhost:4000/frome.fm//posts/julian-crawley.html</guid>
         
+        <category>Rebellious Jukebox</category>
+        
+        <category>music</category>
+        
+        <category>chat show</category>
+        
+        <category>Rupert Kirkham</category>
+        
+        
+        <category>Radio Program</category>
         
       </item>
     

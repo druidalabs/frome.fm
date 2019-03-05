@@ -13,24 +13,21 @@
                 {% else %}
                 <img class="w-100" src="{{'/assets/img/slider-desk.jpg' | prepend: site.baseurl }}">
                 {% endif %}
+                {% if page.carousel-main-text %}
                 <div class="carousel-caption center-block d-none d-md-block">
-                    <h2>On the air, in the air, everywhere</h2>
-                    <p>Broadcasting <b>online</b> and on <b>96.6FM</b> locally</p>
-                    <a class="btn btn-secondary" href="{{site.baseurl}}/programs/">All our programs</a>
+                    <h2>{{ page.carousel-main-text }}</h2>
+                    <p>{{ page.carousel-secondary-text }}</p>
                 </div>
-            </div>
-            {% for item in site.data.programs %}
-            {% if item.carousel-photo %}
-            <div class="carousel-item">
-                <img class="w-100" src="{{ item.carousel-photo | prepend: '/assets/img/'  | prepend: site.baseurl }}">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>{{item.name}}</h2>
-                    <p>{{item.description}}</p>
-                    <a class="btn btn-secondary" href="{{item.link}}">More from {{item.name}}</a>
+                {% else %}
+                <div class="carousel-caption center-block d-none d-md-block">
+                    <h2>Redefining radio</h2>
+                    <p>Be creative. Get involved. Make a difference</p>
+                    <a class="btn btn-secondary" href="{{site.baseurl}}/programs/">see all our programs</a>
                 </div>
+                {% endif %}
+
             </div>
-            {% endif %}
-            {% endfor %}
+            {% include program-carousel.html %}
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

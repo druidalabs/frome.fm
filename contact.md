@@ -4,7 +4,8 @@ map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.4374771408325!2d
 title: Contact
 permalink: /contact/
 ---
-Please use the contact form to get in touch with us. Alternatively, you can email us directly on the details below.
+Please use the contact details visible on the header of the site to get in touch with us.
+Alternatively, you can email us directly on the details below.
 
 Office email 
 [hello@frome.fm](mailto:hello@frome.fm)
@@ -19,8 +20,13 @@ Office phone number – 01373 475570
 If you prefer to post us something then please send any mail or demo CDs to:
 
 Frome Community Productions CIC
+
 Frome Town Hall
+
 Christchurch Street West
+
 Frome
+
 Somerset
+
 BA11 1EB

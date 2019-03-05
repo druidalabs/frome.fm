@@ -1,4 +1,10 @@
 .sass-cache
 .jekyll-metadata
+<<<<<<< HEAD
 .idea/
 _site
+=======
+.idea/  
+_site/
+.jekyll-cache/
+>>>>>>> gh-pages

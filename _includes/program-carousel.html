@@ -1,0 +1,12 @@
+{% for item in site.data.programs %}
+{% if item.carousel-photo %}
+<div class="carousel-item">
+    <img class="w-100" src="{{ item.carousel-photo | prepend: '/assets/img/'  | prepend: site.baseurl }}">
+    <div class="carousel-caption d-none d-md-block">
+        <h2>{{item.name}}</h2>
+        <p>{{item.description}}</p>
+        <a class="btn btn-secondary" href="{{item.link}}">More from {{item.name}}</a>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

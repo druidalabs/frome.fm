@@ -1,10 +1,10 @@
 - name: About
-  link: about/
+  link: /about/
 - name: Presenters
-  link: presenters/
+  link: /presenters/
 - name: Programs
-  link: programs/
+  link: /programs/
 - name: Entertainment
-  link: entertainment/
+  link: /entertainment/
 - name: Contact
-  link: contact/
+  link: /contact/

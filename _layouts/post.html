@@ -28,11 +28,11 @@ layout: default
         <h3>By {{presenters.name}}</h3>
         {% if presenters.photo %}
         <div class="author-photo">
-            <img class="img-fluid img-thumbnail" src="{{presenters.photo | prepend: 'assets/img/'  | prepend: site.baseurl}}">
+            <img class="img-fluid img-thumbnail" src="{{presenters.photo | prepend: '/assets/img/'  | prepend: site.baseurl}}">
         </div>
         {% endif %}
         {% if presenters.message %}
-        <div class="mt-2">
+        <div class="mt-2 font-italic">
         <i class="fa fa-quote-left"></i> {{presenters.message}} <i class="fa fa-quote-right"></i>
         </div>
         {% endif %}

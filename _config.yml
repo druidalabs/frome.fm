@@ -10,7 +10,7 @@ title: Frome FM
 # this means to ignore newlines until "baseurl:"
 description: A radical fresh approach to radio. A trully shared resource. Open and transparent. Supporting the local community and empowering the collective creativity of its members 
 
-baseurl: "/frome.fm/" # the subpath of your site, e.g. /blog
+baseurl: "/frome.fm" # the subpath of your site, e.g. /blog
 url: "http://frome.fm" # the base hostname & protocol for your site
 #These settings might be able to go?
 author: Felipe Ieder

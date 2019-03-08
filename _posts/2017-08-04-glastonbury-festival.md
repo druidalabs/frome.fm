@@ -4,8 +4,8 @@ layout: post
 #general information
 title:  "This is Glastonbury Festival 2017"
 cover: "This-is-Glastonbury-banner.jpg"
-date:   2019-01-04
-tags: [Glastonbury Festival 2017, live music, music]
+date:  2019-01-04
+tags: [live music, music]
 
 #presenter
 author: "Alex Hawkins"

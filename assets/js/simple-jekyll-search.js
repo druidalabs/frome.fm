@@ -295,14 +295,18 @@ function isJSON (json) {
 
 var _$src_8 = {};
 (function (window) {
-  'use strict'
+  var author;
+  if ( {author} ) {
+      author = '<span class="font-weight-bold"> - </span><span class="font-italic"> {author}</span></a></li>';
+  }
 
+  'use strict'
   var options = {
     searchInput: null,
     resultsContainer: null,
     json: [],
     success: Function.prototype,
-    searchResultTemplate: '<li><a href="{url}" class="d-block" title="{desc}"><i class="fa fa-newspaper-o"></i> {title}</a></li>',
+    searchResultTemplate: '<li><a href="{url}" class="d-block" title="{desc}"><i class="fa fa-newspaper-o"></i> {search-title} '+author,
     templateMiddleware: Function.prototype,
     sortMiddleware: function () {
       return 0

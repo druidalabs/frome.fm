@@ -13,7 +13,7 @@ layout: default
         {% for item in site.data.presenters %}
             <div class="card">
                 <a href="{{ item.link }}">
-                <img class="card-img-top" src="{{ item.photo | prepend: 'assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
+                <img class="card-img-top" src="{{ item.photo | prepend: '/assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
                 <div class="card-body">
 
                         <h5 class="card-title">

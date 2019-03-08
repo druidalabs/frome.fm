@@ -1,6 +1,9 @@
-
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
 <div id="search-container" class="w-100 pt-2">
-    <input type="text" class="form-control w-100" id="search-input" placeholder="search...">
     <ul id="results-container" class="search-results">
 
     </ul>
@@ -11,11 +14,15 @@
 
 <!-- Configuration -->
 <script>
-    SimpleJekyllSearch({
+    var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{site.baseurl}}/search.json'
     });
+    var referrerURL = window.location.hash;
+    referrerURL = referrerURL.replace('#', '');
+    referrerURL = referrerURL.replace('-', ' ');
     //@TODO Call function and replace with #tag
-    // sjs.search('ReplaceWithHeader#');
+
+    sjs.search(referrerURL);
 </script>

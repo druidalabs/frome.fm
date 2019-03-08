@@ -3,17 +3,16 @@ layout: default
 ---
 
 <article>
-    <div class="row">
-        <div class="col">
-            {{ content }}
-        </div>
+    <div class="d-block mb-4">
+        {{ content }}
     </div>
-    <div class="row">
+    <div class="d-block">
+        <h3>Events</h3>
         <div class="card-group">
             {% for item in site.data.events %}
             <div class="card">
                 <a href="{{ item.link }}">
-                    <img class="card-img-top" src="{{ item.photo | prepend: 'assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
+                    <img class="card-img-top" src="{{ item.photo | prepend: '/assets/img/'  | prepend: site.baseurl }}" alt="{{ item.name }}">
                     <div class="card-body">
 
                         <h5 class="card-title">
@@ -26,11 +25,11 @@ layout: default
             {% endfor %}
         </div>
     </div>
-    <div class="row">
+    <div class="d-block mt-4">
         <a href="https://havefunhub.com" target="_blank">
             <h4>Powered by</h4>
             <div class="logoHaveFunHub">
-                <img src="{{ 'n-logo-hfh.png' | prepend: 'assets/img/'  | prepend: site.baseurl }}">
+                <img src="{{ 'n-logo-hfh.png' | prepend: '/assets/img/'  | prepend: site.baseurl }}">
             </div>
         </a>
     </div>

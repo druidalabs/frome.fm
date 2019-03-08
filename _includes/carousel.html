@@ -41,7 +41,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 {% if page.cover %}
-                <img  class="d-block w-100" src="{{page.cover  | prepend: 'assets/img/'  | prepend: site.baseurl}}">
+                <img  class="d-block w-100" src="{{page.cover  | prepend: '/assets/img/'  | prepend: site.baseurl}}">
                 {% else %}
                 <img class="d-block w-100" src="{{'/assets/img/slider-desk.jpg' | prepend: site.baseurl }}">
                 {% endif %}

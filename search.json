@@ -4,10 +4,11 @@
   {% for post in site.posts %}
   {
 
-    "title"    : "{{ post.title | escape }}",
+    "title"     : "{{ post.title | append: ', ' }}{{ post.tags | join: ', ' }}{{ post.author | prepend: ', ' }}",
+    "search-title"    : "{{ post.title | escape }}",
     "url"      : "{{ site.baseurl }}{{ post.url }}",
+    "author"   : "{{ post.author }}",
     "category" : "{{ post.category }}",
-    "tags"     : "{{ post.tags | join: ', ' }}",
     "date"     : "{{ post.date }}"
 
   } {% unless forloop.last %},{% endunless %}

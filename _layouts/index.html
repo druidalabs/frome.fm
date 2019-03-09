@@ -15,6 +15,10 @@ carousel: true
                 <h3>Tags</h3>
                 {% include widget-tags.html %}
             </div>
+            <div class="d-block mb-5">
+                <h3>Us on Twitter</h3>
+                {% include widget-twitter.html %}
+            </div>
         </div>
         <div class="col-lg-8">
         {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}

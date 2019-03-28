@@ -2,7 +2,7 @@
 layout: post
 
 #general information
-title:  "Julian visits the Silk mill"
+title:  "Julian creates a new post"
 cover: "rebellious-jukebox-program-image.jpg"
 date:   2019-03-26
 category: Radio Program

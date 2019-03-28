@@ -14,6 +14,5 @@ presenter: "Julian Crawley"
 
 ---
 
-This is just a sample to show Julian
-
-Something else
+This is just a sample to show Julian.
+Julian has managed to edit this post all by himself.

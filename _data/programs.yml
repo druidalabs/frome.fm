@@ -16,17 +16,59 @@
   carousel-photo: rebellious-jukebox-program-image.jpg
   mixcloud-url: https://www.mixcloud.com/widget/iframe/?feed=%2FFromeFM%2Fplaylists%2Frebellious-jukebox%2F
 
-- name: This is Glastonbury Festival 2017
-  link: this-is-glastonbury-festival-2017
-  description: This is Glastonbury, a Frome FM special joining Alex Hawkins in a series of programmes delving into the creative work behind the scenes that make Glastonbury Festival such a unique place to be.
-  producers: Alex Hawkins
-  photo: This-is-Glastonbury-banner.jpg
-  carousel-photo: This-is-Glastonbury-banner.jpg
-  mixcloud-url: https://www.mixcloud.com/widget/iframe/?feed=%2FFromeFM%2Fplaylists%2Fglastonbury-2017%2F
-
 - name: Fromers
   link: fromers
   description: A few of your favourite Frome FM presenters will entertain you with their records old and new, and keep you up to date with all the live music offerings in and around the town this week.
   producers: Ivan, Fordy, James and Paul
   photo: fromers-banner.jpg
-  show-time:  Every Tuesday from 7 ’til 8pm.
+  show-time:  Every Tuesday from 7 until 8pm.
+  carousel-photo: fromers-banner.jpg
+
+- name: Request Stop
+  link: request-stop
+  description: Request Stop is a monthly request show presented by husband and wife team Andy & Kerry Brittain, bringing you an hour of nostalgic popular music from the 20th Century.
+  producers: Andy and Kerry Brittain
+  photo: request-stop.jpg
+  show-time:  Not known.
+  carousel-photo: request-stop-banner.jpg
+
+- name: Basement 7
+  link: basement-7
+  description: Enter Basement 7. A place of no real definition. A place that belongs to no time, no style or scene....
+  producers: General E Smith
+  photo: basement-7.png
+  show-time:  Not known.
+  carousel-photo: basement-7.png
+  
+- name: Bad Detectives Radio Show
+  link: bad-detectives
+  description: Listen in amazement as the addled brains of Frome's biggest hit-makers try to make sense of their record collections! 
+  producers: The Bad Detectives
+  photo: bad-detectives.png
+  show-time:  Not known.
+  carousel-photo: bad-detectives.png  
+  
+- name: Chemical Steve
+  link: chemical-steve
+  description: Psychedelic, prog rock weird stuff that no one else plays on radio.
+  producers: Chemical Steve Barton
+  photo: chemical-steve.png
+  show-time:  Not known.
+  carousel-photo: chemical-steve.png
+  
+- name: Dance Classics
+  link: dance-classics
+  description: Dance Classics is a two-hour show delving into 40 years of dance music history. 
+  producers: Jason B
+  photo: dance-classics.png
+  show-time:  Not known.
+  carousel-photo: dance-classics.png 
+  
+- name: Different Sounds
+  link: different-sounds
+  description: Dance Classics is a two-hour show delving into 40 years of dance music history.
+  producers: Ian Leak
+  photo: different-sounds.png
+  show-time:  Not known.
+  carousel-photo: different-sounds.png
+  

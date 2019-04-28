@@ -2,8 +2,8 @@
 layout: post
 
 #general information
-title:  "Julian creates a new post again and again"
-cover: "rebellious-jukebox-program-image.jpg"
+title:  "Seeing Things"
+cover: "seeingthings.jpg"
 date:   2019-04-28
 category: Radio Program
 author: Julian Crawley

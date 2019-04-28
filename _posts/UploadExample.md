@@ -14,4 +14,4 @@ presenter: "Julian Crawley"
 
 ---
 
-This is a template file that can be edited and uploaded, or even sent to a nominated 'upload' person. 
+This is a template file that can be edited and uploaded, or even sent to a nominated upload person. 

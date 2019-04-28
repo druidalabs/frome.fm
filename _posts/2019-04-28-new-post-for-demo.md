@@ -3,7 +3,7 @@ layout: post
 
 #general information
 title:  "Seeing Things"
-cover: "seeingthings.jpg"
+cover: "seeingthings.png"
 date:   2019-04-28
 category: Radio Program
 author: Julian Crawley

@@ -7,7 +7,7 @@ cover: "seeingthings.jpg"
 date:   2019-04-28
 category: Radio Program
 author: Julian Crawley
-tags: [chat show]
+tags: [arts, radio arts]
 
 #presenter
 presenter: "Julian Crawley"

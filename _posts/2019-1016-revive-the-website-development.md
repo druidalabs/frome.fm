@@ -3,7 +3,7 @@ layout: post
 
 #general information
 title:  "Julian Revives Website Evaluation"
-cover: "seeingthings.png"
+cover: "fromefm.png"
 date:   2019-10-16
 category: Radio Program
 author: Julian Crawley
